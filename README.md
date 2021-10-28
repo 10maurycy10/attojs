@@ -1,4 +1,4 @@
-# tinyJS
+# attoJS
 
 The smallest high preformance JS framework.
 

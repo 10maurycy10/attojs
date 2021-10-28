@@ -1,6 +1,6 @@
 {
-  "name": "tinyjs",
-  "version": "1.0.0",
+  "name": "attojs",
+  "version": "1.0.1",
   "description": "A high preformance functional javascript framework.",
   "main": "index.js",
   "scripts": {
@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/10maurycy10/tinyjs.git"
+    "url": "git+https://github.com/10maurycy10/attojs.git"
   },
   "keywords": [
-    "tiny",
+    "attojs",
     "js"
   ],
   "author": "10maurycy10@gmail.com",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/10maurycy10/tinyjs/issues"
+    "url": "https://github.com/10maurycy10/attojs/issues"
   },
-  "homepage": "https://github.com/10maurycy10/tinyjs#readme"
+  "homepage": "https://github.com/10maurycy10/attojs#readme"
 }

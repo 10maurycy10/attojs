@@ -1,23 +1,4 @@
-{
-  "name": "attojs",
-  "version": "1.0.4",
-  "description": "A high preformance functional javascript framework.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/10maurycy10/attojs.git"
-  },
-  "keywords": [
-    "attojs",
-    "js"
-  ],
-  "author": "10maurycy10@gmail.com",
-  "license": "GPL-3.0-or-later",
-  "bugs": {
-    "url": "https://github.com/10maurycy10/attojs/issues"
-  },
-  "homepage": "https://github.com/10maurycy10/attojs#readme"
-}
+{"name":"attojs","version":"1.0.5","description":"A high preformance functional javascript framework.",
+"main":"index.js","scripts": {},"repository":{"type":"git","url":"git+https://github.com/10maurycy10/attojs.git"
+},"keywords":["attojs","js"],"author":"10maurycy10@gmail.com","license":"GPL-3.0-or-later","bugs":{"url":
+"https://github.com/10maurycy10/attojs/issues"},"homepage":"https://github.com/10maurycy10/attojs#readme"}

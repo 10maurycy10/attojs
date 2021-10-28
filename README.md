@@ -16,12 +16,12 @@ tinyJS allows you to use multiple common disign patterns in your code, these inc
 
 - data hiding (parameters)
 
-```
+```js
 $ = require("attojs")
 
-cat = (name)=>{return {meow: ()=>console.log(`${name} meows`)}}
+let cat = (name)=>{return {meow: ()=>console.log(`${name} meows`)}}
 
-my_cat = $(cat,"bob")
+let my_cat = $(cat,"bob")
 
 // we dont have accses to the name data
 my_cat.meow()
@@ -29,10 +29,10 @@ my_cat.meow()
 
 - data hiding (state)
 
-```
+```js
 $ = require("attojs")
 
-id = $(()=>{
+let id = $(()=>{
 	let id = 0
 	return {
 		getid: ()=>(id++)
@@ -49,20 +49,20 @@ console.log(id.getid());
 
 - function composition
 
-```
+```js
 $ = require("attojs")
 
 function makelog(id) {
 	return `this is log ${id}`
 }
 
-logid = (id)=>console.log(makelog(id))
+let logid = (id)=>console.log(makelog(id))
 
 $(logid,1)
 ```
 
 - lambda functios
 
-```
+```js
 ((x) => {x + 1})(1) // 2
 ```

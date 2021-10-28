@@ -21,9 +21,9 @@ tinyJS allows you to use multiple common disign patterns in your code:
 ```
 $ = require("tiny.js")
 
-cat = (name)=>{meow: console.log(`${name} meows`)}
+cat = (name)=>{return {meow: ()=>console.log(`${name} meows`)}}
 
-my_cat = $(cat)
+my_cat = $(cat,"bob")
 
 // we dont have accses to the name data
 my_cat.meow()
@@ -37,7 +37,7 @@ $ = require("tiny.js")
 id = $(()=>{
 	let id = 0
 	return {
-		getid = ()=>(id++)
+		getid: ()=>(id++)
 	}
 })
 
@@ -60,5 +60,11 @@ function makelog(id) {
 
 logid = (id)=>console.log(makelog(id))
 
-logid(1)
+$(logid,1)
+```
+
+- lambda functios
+
+```
+((x) => {x + 1})(1) // 2
 ```

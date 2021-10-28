@@ -1,1 +1,1 @@
-module.exports=(x,y)=>(x(y));
+module.exports=(a,...b) => a(...b)

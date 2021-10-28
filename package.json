@@ -1,6 +1,6 @@
 {
   "name": "attojs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A high preformance functional javascript framework.",
   "main": "index.js",
   "scripts": {

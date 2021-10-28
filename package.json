@@ -1,0 +1,23 @@
+{
+  "name": "tinyjs",
+  "version": "1.0.0",
+  "description": "A high preformance functional javascript framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/10maurycy10/tinyjs.git"
+  },
+  "keywords": [
+    "tiny",
+    "js"
+  ],
+  "author": "10maurycy10@gmail.com",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/10maurycy10/tinyjs/issues"
+  },
+  "homepage": "https://github.com/10maurycy10/tinyjs#readme"
+}

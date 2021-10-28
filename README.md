@@ -4,11 +4,9 @@ The smallest high preformance JS framework.
 
 ## Features
 
-tinyJS allows you to use multiple common disign patterns in your code:
+tinyJS allows you to use multiple common disign patterns in your code, these include:
 
 - data hiding
-
-- inheritance
 
 - function composition
 

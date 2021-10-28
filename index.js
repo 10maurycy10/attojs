@@ -1,1 +1,1 @@
-modules.exports=(x)=>(x());
+modules.exports=(x,y)=>(x(y));
